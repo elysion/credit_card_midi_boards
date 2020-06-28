@@ -1,0 +1,34 @@
+{
+    "packages": [
+      {
+        "name": "Credit Card Midi",
+        "maintainer": "Gadgetmies",
+        "websiteURL": "http://gadgetmies.ddns.net/",
+        "email": "gadgetmies@gmail.com",
+        "help": {
+          "online": "https://github.com/elysion/credit_card_midi_boards"
+        },
+        "platforms": [
+          {
+            "name": "Credit Card MIDI Boards",
+            "architecture": "avr",
+            "version": "1.0.0",
+            "category": "Contributed",
+            "help": {
+              "online": "https://github.com/elysion/credit_card_midi_boards"
+            },
+            "url": "https://github.com/elysion/credit_card_midi_boards/releases/download/v1.0.0/credit_card_midi-1.0.0.zip",
+            "archiveFileName": "credit_card_midi-1.0.0.zip",
+            "checksum": "SHA-256:4aaf8e6828e62aed313055ec1f5e96f316d3ea28c4b3ab7879cfe7c797890a1e",
+            "size": "237580",
+            "boards": [
+              {"name": "Mixer"},
+              {"name": "Deck"}
+            ],
+            "toolsDependencies": []
+          }
+        ],
+        "tools": []
+      }
+    ]
+  }
