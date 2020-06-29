@@ -475,7 +475,7 @@ static const uint8_t CM_MIXER_EQ_HIGH_L = 41; // Y3
 static const uint8_t CM_MIXER_EQ_HIGH_R = 25; // Y4
 static const uint8_t CM_MIXER_EQ_LOW_R = 27; // Y5
 static const uint8_t CM_MIXER_XFADER = 28; // Y6
-static const uint8_t CM_MIXER_EQ_LOW_R = 29; // Y7
+static const uint8_t CM_MIXER_EQ_LOW_L = 29; // Y7
 static const uint8_t CM_MIXER_EQ_MID_L = 30; // Y8
 static const uint8_t CM_MIXER_EQ_MID_R = 26; // Y9
 
