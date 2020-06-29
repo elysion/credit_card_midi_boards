@@ -1,6 +1,6 @@
 # See: http://code.google.com/p/arduino/wiki/Platforms
 
-deck.name="Credit Card Deck"
+deck.name=Credit Card Deck
 deck.vid.0=0x2341
 deck.pid.0=0x0036
 deck.vid.1=0x2341
@@ -39,7 +39,7 @@ deck.build.extra_flags={build.usb_flags}
 
 ############
 
-mixer.name="Credit Card Mixer"
+mixer.name=Credit Card Mixer
 mixer.vid.0=0x2341
 mixer.pid.0=0x0036
 mixer.vid.1=0x2341
