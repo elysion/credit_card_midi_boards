@@ -465,21 +465,21 @@ const uint8_t PROGMEM analog_pin_to_channel_PGM[] = {
 #define SerialUSB SERIAL_PORT_USBVIRTUAL
 
 /* Mixer functionality */
-static const uint8_t CM_MIXER_X1 = 37;
-static const uint8_t CM_MIXER_X2 = 36;
-static const uint8_t CM_MIXER_X3 = 38;
+static const uint8_t CM_MIXER_X1 = 37; // One segment of EQs, left segment of xfader
+static const uint8_t CM_MIXER_X2 = 36; // One segment of EQs, right segment of xfader
+static const uint8_t CM_MIXER_X3 = 38; // One segment of EQs, middle segment of xfader
 
-static const uint8_t CM_MIXER_Y1 = 39;
-static const uint8_t CM_MIXER_Y2 = 40;
-static const uint8_t CM_MIXER_Y3 = 41;
-static const uint8_t CM_MIXER_Y4 = 25;
-static const uint8_t CM_MIXER_Y5 = 27;
-static const uint8_t CM_MIXER_Y6 = 28;
-static const uint8_t CM_MIXER_Y7 = 29;
-static const uint8_t CM_MIXER_Y8 = 30;
-static const uint8_t CM_MIXER_Y9 = 26;
+static const uint8_t CM_MIXER_HP_CUE_L = 39; // Y1
+static const uint8_t CM_MIXER_HP_CUE_R = 40; // Y2
+static const uint8_t CM_MIXER_EQ_HIGH_L = 41; // Y3
+static const uint8_t CM_MIXER_EQ_HIGH_R = 25; // Y4
+static const uint8_t CM_MIXER_EQ_LOW_R = 27; // Y5
+static const uint8_t CM_MIXER_XFADER = 28; // Y6
+static const uint8_t CM_MIXER_EQ_LOW_R = 29; // Y7
+static const uint8_t CM_MIXER_EQ_MID_L = 30; // Y8
+static const uint8_t CM_MIXER_EQ_MID_R = 26; // Y9
 
-static const uint8_t CM_MIXER_LED_CUE_L = 33;
-static const uint8_t CM_MIXER_LED_CUE_R = 32;
+static const uint8_t CM_MIXER_LED_HP_CUE_L = 33;
+static const uint8_t CM_MIXER_LED_HP_CUE_R = 32;
 
 #endif /* Pins_Arduino_h */
