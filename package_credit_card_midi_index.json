@@ -12,15 +12,15 @@
           {
             "name": "Credit Card MIDI Boards",
             "architecture": "avr",
-            "version": "0.1.4",
+            "version": "0.1.5",
             "category": "Contributed",
             "help": {
               "online": "https://github.com/elysion/credit_card_midi_boards"
             },
-            "url": "https://github.com/elysion/credit_card_midi_boards/releases/download/v0.1.4/credit_card_midi-0.1.4.zip",
-            "archiveFileName": "credit_card_midi-0.1.4.zip",
-            "checksum": "SHA-256:9d08e6584cde3b6b2d2c35e4b007886b4cad7ef583d50474e1e5e46624450a5f",
-            "size": "213955",
+            "url": "https://github.com/elysion/credit_card_midi_boards/releases/download/v0.1.5/credit_card_midi-0.1.5.zip",
+            "archiveFileName": "credit_card_midi-0.1.5.zip",
+            "checksum": "SHA-256:7e47b7db21a44a7810352ea3df4b28b13c547200f39a13c22f429f65365c54b0",
+            "size": "213991",
             "boards": [
               {"name": "Mixer"},
               {"name": "Deck"}
