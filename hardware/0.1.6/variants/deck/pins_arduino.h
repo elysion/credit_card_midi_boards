@@ -479,7 +479,7 @@ static const uint8_t CM_DECK_PITCH5 = 25;
 
 static const uint8_t CM_DECK_BUTTON_PLAY = 36;
 static const uint8_t CM_DECK_LED_PLAY = 32;
-static const uint8_t CM_DECK_BUTTON_CUE = 31;
-static const uint8_t CM_DECK_LED_CUE = 30;
+static const uint8_t CM_DECK_BUTTON_CUE = 30;
+static const uint8_t CM_DECK_LED_CUE = 31;
 
 #endif /* Pins_Arduino_h */
